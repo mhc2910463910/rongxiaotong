@@ -1,0 +1,109 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:log",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": 'ohos.permission.INTERNET'},//允许使用internet网络
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",//允许应用获取设备模糊位置信息。
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        },
+      }, {
+        "name": "ohos.permission.LOCATION",//允许应用获取设备位置信息
+        "reason": "$string:app_name",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "always"
+        }
+      },{
+        "name": "ohos.permission.READ_MEDIA",//允许应用获取设备位置信息
+        "reason": "$string:media_permission",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "$string:media_write_permission",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      },{
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "reason": "$string:media_location_permission",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+//    "requestPermissions":[
+//      {
+//        "name" : "ohos.permission.PERMISSION1",
+//        "reason": "$string:reason",
+//        "usedScene": {
+//          "abilities": [
+//            "FormAbility"
+//          ],
+//          "when":"inuse"
+//        }
+//      },
+//      {
+//        "name" : "ohos.permission.PERMISSION2",
+//        "reason": "$string:reason",
+//        "usedScene": {
+//          "abilities": [
+//            "FormAbility"
+//          ],
+//          "when":"always"
+//        }
+//      }
+//    ]
+  }
+}

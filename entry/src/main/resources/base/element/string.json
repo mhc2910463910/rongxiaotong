@@ -1,0 +1,113 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "This module template implements List functions."
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "EntryAbility_desc"
+    },
+    {
+      "name": "ability_desc",
+      "value": "This ability loads ListPage"
+    },
+    {
+      "name": "ability_label",
+      "value": "List Ability"
+    },
+    {
+      "name": "tab_title",
+      "value": "Operation"
+    },
+    {
+      "name": "list_item_title",
+      "value": "Double-line list"
+    },
+    {
+      "name": "list_item_sub_title",
+      "value": "Auxiliary text"
+    },
+    {
+      "name": "list_item_summary",
+      "value": "Right text"
+    },
+    {
+      "name": "page_title",
+      "value": "Title"
+    },
+    {
+      "name": "detail_page_list_title",
+      "value": "Title"
+    },
+    {
+      "name": "detail_default_title",
+      "value": "Default title"
+    },
+    {
+      "name": "GoodsInfoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "GoodsInfoAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "reason",
+      "value": "rongxiaotong"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "图片处理"
+    },
+    {
+      "name": "recently_added",
+      "value": "最近添加"
+    },
+    {
+      "name": "next",
+      "value": "下一步"
+    },
+    {
+      "name": "choice_photo",
+      "value": "选照片"
+    },
+    {
+      "name": "choice_video",
+      "value": "选视频"
+    },
+
+    {
+      "name": "photograph",
+      "value": "拍照"
+    },
+    {
+      "name": "take_video",
+      "value": "拍视频"
+    },
+    {
+      "name": "choice_number",
+      "value": "最多选择六张图片"
+    },
+    {
+      "name": "user_tip",
+      "value": "功能开发中"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "融销通"
+    },
+    {
+      "name": "media_permission",
+      "value": "允许应用读取用户外部存储中的媒体文件信息"
+    },
+    {
+      "name": "media_write_permission",
+      "value": "允许应用读写用户外部存储中的媒体文件信息"
+    },
+    {
+      "name": "media_location_permission",
+      "value": "允许应用访问用户媒体文件中的地理位置信息"
+    }
+  ]
+}
